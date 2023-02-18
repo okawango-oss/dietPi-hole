@@ -21,12 +21,16 @@ Fritz.box
 - Im Menü Heimnetz/Netzwerk dem dietPi-hole eine statische IP-Adresse geben.
 - Im Menü Internet/Zugangsdaten/DNS-Server in der Zeile Bevorzugter DNSv4-Server die statische IP-Adresse des dietPi-hole eintragen.
 
-Quellen:
+Pihole web login Passwort ändern
 
-https://dietpi.com/#downloadinfo
+Terminal
+- #ssh root@ip-adresse
+- #pihole -a -p
 
-https://dietpi.com/docs/install/
+- Aufruf der Pihole Seite
+  - https://ip-adresse/admin
+  - das neue Passwort eingebn 
 
-https://pihole.net
-
-https://docs.pi-hole.net
+Funktionstest
+  
+  - https://dnscheck.tools
