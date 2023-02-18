@@ -4,9 +4,9 @@ Das Image dietPi-hole.img bestaht aus dem Betriebssystem dietpi v8.14 und über 
 
 Remote Zugang per ssh
 
-- Terminal via cli:
+- Terminal:
 
-- #ssh root@dietpi
+- #ssh root@ipadresse ##siehe Fritzbox
 
 - dietpi ##das initiale Passwort
 
