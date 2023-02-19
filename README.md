@@ -28,9 +28,9 @@ Hinweis: Das Dollar Zeichen ($) bedeutet: als root den Befehl eingeben und mit R
   Terminal/Putty:
   - $ssh root@ip-adress #ip-adress siehe Fritzbox
   - dietpi #das initiale Passwort
-  - $dietpi-launcher #config tool
-  - im Menüpunkt GENAUER security das Passwort ändern
-  - im Menüpunkt GENAUER Netzwerkadapter DHCP auf STATIC ip-adress ändern
+  - $dietpi-launcher #config tool https://dietpi.com/docs/dietpi_tools/
+  - im Menüpunkt DietPi Config/Network options Adapters: DHCP auf STATIC ip-adress ändern
+  - im Menüpunkt DietPi Config/Security options: das Passwort ändern
 
 Fritz.box
 
