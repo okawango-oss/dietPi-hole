@@ -5,6 +5,14 @@ Referenz Installation (siehe dietPi.com) anschließend von der SD-Karte kopieren
 - $cat /dev/sdg > /home/IOSs/dietPi-hole.img status=progress
 #60 GB file
 
+https://www.tomshardware.com/how-to/back-up-raspberry-pi-as-disk-image
+
+
+
+
+
+
+
 shrinking .img file
 
 Let's enable enable the loopback:
