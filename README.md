@@ -44,7 +44,7 @@ Pihole web login Passwort ändern
   - $pihole -a -p # anschließend das neue Passwort eingeben
 
 Aufruf der Pihole Seite
-  - https://ip-adress/admin
+  - http://ip-adress/admin
   - das neue Passwort eingebn 
 
 Funktionstest DNSSEC
