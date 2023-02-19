@@ -20,7 +20,7 @@ Zum Beispiel mit Balena Etcher:
   - Linux https://github.com/balena-io/etcher#debian-and-ubuntu-based-package-repository-gnulinux-x86x64
   - Windows https://github.com/balena-io/etcher/releases/download/v1.14.3/balenaEtcher-Setup-1.14.3.exe
 
-Remote Zugang per ssh für macOS,Linux oder Windows, nachdem der Raspi das erste mal hochfährt. 
+Remote Zugang per ssh für macOS, Linux oder Windows, nachdem der Raspi das erste mal hochfährt. 
 Hinweis: Das Dollar Zeichen ($) bedeutet: als root den Befehl eingeben und mit Return abschließen, das
          Doppelkreuz (#) markiert Kommentare 
 
