@@ -2,15 +2,17 @@
 
 Das Image dietPi-hole.img basiert auf dem Betriebssystem dietpi v8.14. Mittels dietpi-launcher wurde Pihole aus dem selben repro installiert. Die Netzwerkkonfiguration ist auf DHCP voreingestellt. Dazu wurden 75 Blocklisten eingepflegt und die Option DNSSEC für die vier upstream DNS Server: 2x Cloudflair und 2x Quad9 aktiviert.
 
-Remote Zugang per ssh
+Remote Zugang per ssh für macOS oder Linux
 
 - Terminal:
 
-- #ssh root@ipadresse ##siehe Fritzbox
+- $wget https://...
+
+- $ssh root@ipadresse ##siehe Fritzbox
 
 - dietpi ##das initiale Passwort
 
-- #dietpi-launcher ##config tool
+- $dietpi-launcher ##config tool
 
 - im Menüpunkt security das Passwort ändern
 
@@ -24,8 +26,8 @@ Fritz.box
 Pihole web login Passwort ändern
 
 Terminal
-- #ssh root@ip-adresse
-- #pihole -a -p
+- $ssh root@ip-adresse
+- $pihole -a -p
 
 - Aufruf der Pihole Seite
   - https://ip-adresse/admin
@@ -33,4 +35,4 @@ Terminal
 
 Funktionstest
   
-  - https://dnscheck.tools
+  - https://dnscheck.tools im Browser aufrufen
