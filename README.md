@@ -7,7 +7,7 @@ Hardwarevoraussetzungen:
 - SD-Karte mit mehr als 8 GB Speicherplatz
 
 Download des Image dietPi-hole.img per Browser
-- Link einfügen
+- Link einfügen https://github.com/okawango-oss/dietPi-hole/commit/4da934a0f80717f73496a8af89ceff9612c649e1
 
 Flashen der SD-Karte mit dem heruntergeladenen Image.
 Zum Beispiel mit Balena Etcher:
