@@ -58,20 +58,23 @@ Now that we have all the important data at the beginning of the image it is time
 fdisk -l myimage.img
 Here we will see an output similar to the following:
 
-Disk myimage.img: 6144 MB, 6144000000 bytes, 12000000 sectors
-Units = sectors of 1 * 512 = 512 bytes
+Disk dietPi-hole.img: 59.48 GiB, 63864569856 bytes, 124735488 sectors
+Units: sectors of 1 * 512 = 512 bytes
 Sector size (logical/physical): 512 bytes / 512 bytes
 I/O size (minimum/optimal): 512 bytes / 512 bytes
-Disk identifier: 0x000ea37d
+Disklabel type: dos
+Disk identifier: 0xcb891ace
 
-      Device Boot      Start         End      Blocks   Id  System
-myimage.img1            2048     9181183     4589568    b  W95 FAT32
+Device           Boot  Start      End  Sectors  Size Id Type
+dietPi-hole.img1 *      8192   270335   262144  128M  c W95 FAT32 (LBA)
+dietPi-hole.img2      270336 15625000 15354665  7.3G 83 Linux
+
 Note two things in the output:
 
-The partition ends on block 9181183 (shown under End)
+The partition ends on block 15625000 (shown under End)
 The block-size is 512 bytes (shown as sectors of 1 * 512)
-We will use these numbers in the rest of the example. The block-size (512) is often the same, but the ending block (9181183) will differ for you. The numbers mean that the partition ends on byte 9181183512 of the file. After that byte comes the unallocated-part. Only the first 9181183512 bytes will be useful for our image.
+We will use these numbers in the rest of the example. The block-size (512) is often the same, but the ending block (15625000) will differ for you.
 
 Next we shrink the image-file to a size that can just contain the partition. For this we will use the truncate command (thanks uggla!). With the truncate command need to supply the size of the file in bytes. The last block was 9181183 and block-numbers start at 0. That means we need (9181183+1)*512 bytes. This is important, else the partition will not fit the image. So now we use truncate with the calculations:
 
-truncate --size=$[(9181183+1)*512] myimage.img
+$truncate --size=$[(15625000+1)*512] dietPi-hole.img
