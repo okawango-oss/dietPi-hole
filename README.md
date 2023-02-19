@@ -51,7 +51,7 @@ Funktionstest DNSSEC
   
   - https://dnscheck.tools im Browser aufrufen #die unteren drei Blöcke sollten grün sein (DNSSEC), in der unteren Statusleiste -> links in der Ecke: sollte ein Wert zwischen 50 ms und 70 ms (Performance) angezeigt werden.
 
-Funktionstest Blocklisten und normales browsen
+Funktionstest Blocklisten und normales surfen
 
    Terminal:
   - $dig @localhost doubleclick.net #darf keine ip-adress anzeigen, stattdessen 0.0.0.0
