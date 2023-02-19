@@ -6,7 +6,7 @@ Hardwarevoraussetzungen:
   - Raspberrypi Versionen 2/3/4
   - SD-Karte mit mehr als 8 GB Speicherplatz
 
-Download des Image dietPi-hole.img per Browser
+Download des Images dietPi-hole.img per Browser
   - Link einfügen https://github.com/okawango-oss/dietPi-hole/commit/4da934a0f80717f73496a8af89ceff9612c649e1
 
 Empfehlung:
@@ -22,7 +22,7 @@ Zum Beispiel mit Balena Etcher:
 
 Remote Zugang per ssh für macOS oder Linux, nachdem der Raspi das erste mal hochfährt. 
 Hinweis: Das Dollar Zeichen ($) bedeutet: als root den Befehl eingeben und mit Return abschließen, das
-         Doppelkreuze (#) markiert Kommentare 
+         Doppelkreuz (#) markiert Kommentare 
 
   Terminal:
   - $wget https://... #Download des Images, falls noch nicht geschehen, ansonsten überspringen
