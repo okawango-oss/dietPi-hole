@@ -1,0 +1,27 @@
+Referenz Installation von der SD-Karte kopieren
+- $lsblk # dev ermitteln
+#/dev/sdg
+
+- $cat /dev/sdg > /home/IOSs/dietPi-hole.img status=progress
+#60 GB file
+
+shrinking .img file
+
+Let's enable enable the loopback:
+sudo modprobe loop
+
+Let's request a new (free) loopback device:
+sudo losetup -f
+
+The command returns the path to a free loopback device:
+/dev/loop0
+
+Let's create a device of the image:
+sudo losetup /dev/loop0 myimage.img
+
+The device /dev/loop0 represents myimage.img. We want to access the partitions that are on the image, so we need to ask the kernel to load those too:
+sudo partprobe /dev/loop0
+
+This should give us the device /dev/loop0p1, which represents the first partition in myimage.img. We do not need this device directly, but parted requires it.
+
+$parted /dev/loop0
