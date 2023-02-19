@@ -1,7 +1,11 @@
 $lsblk
 #/dev/sdg
 
+image von der SD-Karte auf das NAS kopieren
+
 $dd if=/dev/sdg of=/home/ISOs dietPi-hole.img status=progress
+
+Script zum shrinken des image downloaden, vorbereiten und ausführen
 
 root@cloud:/home/ISOs# wget https://raw.githubusercontent.com/Drewsif/PiShrink/master/pishrink.sh
 
@@ -36,12 +40,16 @@ The filesystem on /dev/loop0 is now 770968 (4k) blocks long.
 pishrink.sh: Shrinking image ...
 pishrink.sh: Shrunk dietPi-hole.img from 60G to 3.1G ...
 
+geshrinktes image wieder auf eine neue SD-Karte kopieren
+
 root@cloud:/home/ISOs# dd if=/home/ISOs/dietPi-hole.img of=/dev/sdg status=progress
 3290132992 bytes (3.3 GB, 3.1 GiB) copied, 710 s, 4.6 MB/s 
 6438081+0 records in
 6438081+0 records out
 3296297472 bytes (3.3 GB, 3.1 GiB) copied, 767.453 s, 4.3 MB/s
 root@cloud:/home/ISOs# 
+
+Neue SD-Karte im Raspi testen
 
 Quelle: https://www.tomshardware.com/how-to/back-up-raspberry-pi-as-disk-image
 
