@@ -8,7 +8,7 @@ Hardwarevoraussetzungen:
   - SD-Karte mit mehr als 4 GB Speicherplatz
 
 Download des Images dietPi-hole.img per Browser
-  - Link gibt es bei mir nur temporär, only by invitation.
+  - Link only by invitation und temporär verfügbar. 
 
 Empfehlung:
   - SD-Karte vorher prüfen. https://www.maketecheasier.com/check-sd-card-speed-capacity/#fake-flash-test
