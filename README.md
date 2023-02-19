@@ -44,7 +44,7 @@ Terminal
 
 Funktionstest DNSSEC
   
-  - https://dnscheck.tools im Browser aufrufen #die unteren drei Blöcke sollten grün sein, in der unteren Statusleiste links in der Ecke sollte ein Wert zwischen 50 ms und 70 ms angezeigt werden.
+  - https://dnscheck.tools im Browser aufrufen #die unteren drei Blöcke sollten grün sein, in der unteren Statusleiste -> links in der Ecke: sollte ein Wert zwischen 50 ms und 70 ms angezeigt werden.
 
 Funktionstest Blocklisten und normales browsen
 
