@@ -43,4 +43,6 @@ root@cloud:/home/ISOs# dd if=/home/ISOs/dietPi-hole.img of=/dev/sdg status=progr
 3296297472 bytes (3.3 GB, 3.1 GiB) copied, 767.453 s, 4.3 MB/s
 root@cloud:/home/ISOs# 
 
+Quelle: https://www.tomshardware.com/how-to/back-up-raspberry-pi-as-disk-image
+
 #end
