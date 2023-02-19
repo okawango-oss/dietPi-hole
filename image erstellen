@@ -1,4 +1,4 @@
-Referenz Installation von der SD-Karte kopieren
+Referenz Installation (siehe dietPi.com) anschließend von der SD-Karte kopieren. 
 - $lsblk # dev ermitteln
 #/dev/sdg
 
