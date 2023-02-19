@@ -21,7 +21,7 @@ Hinweis: Das Dollar Zeichen ($) bedeutet: als root den Befehl eingeben und mit R
 
 Terminal:
 - $wget https://... #Download des Images, falls noch nicht geschehen, ansonsten überspringen
-- $ssh root@ipadress #ip-adresse siehe Fritzbox
+- $ssh root@ipadress #ip-adress siehe Fritzbox
 - dietpi #das initiale Passwort
 - $dietpi-launcher #config tool
 - im Menüpunkt GENAUER security das Passwort ändern
