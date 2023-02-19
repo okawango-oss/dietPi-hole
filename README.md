@@ -21,25 +21,25 @@ Hinweis: Das Dollar Zeichen ($) bedeutet: als root den Befehl eingeben und mit R
 
 Terminal:
 - $wget https://... #Download des Images, falls noch nicht geschehen, ansonsten überspringen
-- $ssh root@ipadresse #ip-adresse siehe Fritzbox
+- $ssh root@ipadress #ip-adresse siehe Fritzbox
 - dietpi #das initiale Passwort
 - $dietpi-launcher #config tool
 - im Menüpunkt GENAUER security das Passwort ändern
-- im Menüpunkt GENAUER Netzwerkadapter DHCP auf STATIC IP-Adresse ändern
+- im Menüpunkt GENAUER Netzwerkadapter DHCP auf STATIC ip-adress ändern
 
 Fritz.box
 
-- Im Menü Heimnetz/Netzwerk dem dietPi-hole eine statische IP-Adresse geben.
-- Im Menü Internet/Zugangsdaten/DNS-Server in der Zeile Bevorzugter DNSv4-Server die statische IP-Adresse des dietPi-hole eintragen.
+- Im Menü Heimnetz/Netzwerk dem dietPi-hole eine statische ip-adress geben.
+- Im Menü Internet/Zugangsdaten/DNS-Server in der Zeile Bevorzugter DNSv4-Server die statische ip-adress des dietPi-hole eintragen.
 
 Pihole web login Passwort ändern
 
 Terminal
-- $ssh root@ip-adresse
+- $ssh root@ip-adress
 - $pihole -a -p # anschließend das neue Passwort eingeben
 
 - Aufruf der Pihole Seite
-  - https://ip-adresse/admin
+  - https://ip-adress/admin
   - das neue Passwort eingebn 
 
 Funktionstest DNSSEC
@@ -49,5 +49,5 @@ Funktionstest DNSSEC
 Funktionstest Blocklisten und normales browsen
 
 Terminal:
-  - $dig @localhost doubleclick.net #darf keine IP-Adresse anzeigen, stattdessen 0.0.0.0
-  - $dig @localhost ard.de #sollte die IP-Adresse der ARD anzeigen
+  - $dig @localhost doubleclick.net #darf keine ip-adress anzeigen, stattdessen 0.0.0.0
+  - $dig @localhost ard.de #sollte die ip-adress der ARD anzeigen
