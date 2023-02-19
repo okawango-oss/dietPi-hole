@@ -49,7 +49,7 @@ Aufruf der Pihole Seite
 
 Funktionstest DNSSEC
   
-  - https://dnscheck.tools im Browser aufrufen #die unteren drei Blöcke sollten grün sein (DNSSEC), in der unteren Statusleiste -> links in der Ecke: sollte ein Wert zwischen 50 ms und 70 ms (Performance) angezeigt werden.
+  - https://dnscheck.tools im Browser aufrufen #die unteren drei Blöcke sollten grün sein (DNSSEC), in der unteren Statusleiste -> links unten in der Ecke: sollte ein Wert zwischen 50 ms und 70 ms (Performance) angezeigt werden.
 
 Funktionstest Blocklisten und normales surfen
 
