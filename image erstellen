@@ -79,6 +79,9 @@ Next we shrink the image-file to a size that can just contain the partition. For
 
 $truncate --size=$[(15625000+1)*512] dietPi-hole.img
 
+SD-Karte flashen mit dem verkleinerten Image dietPi-hole.img
+$dd if=/home/ISOs/dietPi-hole.img of=/dev/sdg status=progress
+
 #Quellen
 https://askubuntu.com/questions/1174487/re-size-the-img-for-smaller-sd-card-how-to-shrink-a-bootable-sd-card-image
 https://www.tecmint.com/parted-command-to-create-resize-rescue-linux-disk-partitions/
