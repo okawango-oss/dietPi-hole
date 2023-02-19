@@ -57,7 +57,7 @@ Funktionstest Blocklisten und normales surfen
   - $dig @localhost ard.de #sollte die ip-adress der ARD anzeigen
 
 Updates:
-  - Es wird automatisch auf updates geprüft, aber nicht automatisch das update eingespielt (Empfehlung der Pihole Entwickler). Man erkennt ein verfügbares update an der blinkenden Versionsangabe auf der admin Seite, ganz unten. http://ip-adress/admin 
+  - Es wird automatisch auf updates geprüft, aber nicht automatisch das update eingespielt (Empfehlung der Pihole Entwickler). Man erkennt ein verfügbares update an der blinkenden Versionsangabe auf der admin Seite, ganz unten nach der Anmeldung auf http://ip-adress/admin 
 
   Terminal/Putty:
   - $pihole -up #eingeben, dann wird Pihole entsprechend aktualisiert
