@@ -10,8 +10,9 @@ Download des Image dietPi-hole.img per Browser
 - Link einfügen https://github.com/okawango-oss/dietPi-hole/commit/4da934a0f80717f73496a8af89ceff9612c649e1
 
 Empfehlung:
-- SD-Karte vorher prüfen https://www.maketecheasier.com/check-sd-card-speed-capacity/#fake-flash-test
-- Firewall iptable rules erstellen und aktivieren: steht auf der to do Liste
+- SD-Karte vorher prüfen. https://www.maketecheasier.com/check-sd-card-speed-capacity/#fake-flash-test
+- Firewall iptable rules erstellen und aktivieren.
+- Optional: DNS Anfragen nur vom Pi-hole erlauben. https://docs.pi-hole.net/routers/fritzbox-de/
 
 Flashen der SD-Karte mit dem heruntergeladenen Image.
 Zum Beispiel mit Balena Etcher:
