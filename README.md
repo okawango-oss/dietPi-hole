@@ -9,15 +9,15 @@ Hardwarevoraussetzungen:
 Download des Image dietPi-hole.img per Browser
 - Link einfügen
 
-Flashen der SD-Karte mit dem heruntergeladenen Image
+Flashen der SD-Karte mit dem heruntergeladenen Image.
 Zum Beispiel mit Balena Etcher:
 - macos https://github.com/balena-io/etcher/releases/download/v1.14.3/balenaEtcher-1.14.3.dmg
 - Linux https://github.com/balena-io/etcher#debian-and-ubuntu-based-package-repository-gnulinux-x86x64
 - Windows https://github.com/balena-io/etcher/releases/download/v1.14.3/balenaEtcher-Setup-1.14.3.exe
 
-Remote Zugang per ssh für macOS oder Linux
-Hinweis: Dollar Zeichen ($) bedeutet als root den Befehl eingeben und mit Return abschließen
-         Doppelkreuze (#) markieren Kommentare 
+Remote Zugang per ssh für macOS oder Linux. 
+Hinweis: Das Dollar Zeichen ($) bedeutet: als root den Befehl eingeben und mit Return abschließen, das
+         Doppelkreuze (#) markiert Kommentare 
   Terminal:
 - $wget https://... #Download des Images, falls noch nicht geschehen, ansonsten überspringen
 - $ssh root@ipadresse #ip-adresse siehe Fritzbox
