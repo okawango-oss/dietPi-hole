@@ -42,9 +42,11 @@ Terminal
   - https://ip-adresse/admin
   - das neue Passwort eingebn 
 
-Funktionstest
+Funktionstest DNSSEC
   
   - https://dnscheck.tools im Browser aufrufen #die unteren drei Blöcke sollten grün sein, in der unteren Statusleiste links in der Ecke sollte ein Wert zwischen 50 ms und 70 ms angezeigt werden.
+
+Funktionstest Blocklisten und normales browsen
 
 Terminal:
   - $dig @localhost doubleclick.net #darf keine IP-Adresse anzeigen, stattdessen 0.0.0.0
