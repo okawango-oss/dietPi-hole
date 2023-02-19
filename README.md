@@ -1,6 +1,6 @@
 # dietPi-hole
 
-Das Image dietPi-hole.img basiert auf dem Betriebssystem dietpi v8.14. Mittels dietpi-launcher wurde Pihole aus dem selben repository installiert. Die Netzwerkkonfiguration ist auf DHCP voreingestellt. Dazu wurden 75 Blocklisten eingepflegt und die Option DNSSEC für die vier upstream DNS Server: 2x Cloudflair und 2x Quad9 aktiviert.
+Das Image dietPi-hole.img basiert auf dem Betriebssystem dietpi v8.14. Mittels dietpi-launcher wurde Pihole aus dem selben repository installiert. Die Netzwerkkonfiguration ist auf DHCP voreingestellt. Dazu wurden 75 Blocklisten eingepflegt und die Option DNSSEC für die vier upstream DNS Server aktiviert: 2x Cloudflare und 2x Quad9.
 
 Hardwarevoraussetzungen: 
 - Raspberrypi Versionen 2/3/4
