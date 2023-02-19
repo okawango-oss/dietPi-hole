@@ -5,7 +5,7 @@ Das Image dietPi-hole.img basiert auf dem Betriebssystem dietpi v8.14. Mittels d
 
 Hardwarevoraussetzungen: 
   - Raspberrypi Versionen 2/3/4
-  - SD-Karte mit mehr als 8 GB Speicherplatz
+  - SD-Karte mit mehr als 4 GB Speicherplatz
 
 Download des Images dietPi-hole.img per Browser
   - Link gibt es bei mir nur temporär, only by invitation.
