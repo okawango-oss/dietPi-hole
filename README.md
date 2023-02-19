@@ -25,7 +25,6 @@ Hinweis: Das Dollar Zeichen ($) bedeutet: als root den Befehl eingeben und mit R
          Doppelkreuz (#) markiert Kommentare 
 
   Terminal/Putty:
-  - $wget https://... #Download des Images, falls noch nicht geschehen, ansonsten überspringen
   - $ssh root@ip-adress #ip-adress siehe Fritzbox
   - dietpi #das initiale Passwort
   - $dietpi-launcher #config tool
