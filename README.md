@@ -36,7 +36,7 @@ Pihole web login Passwort ändern
 
 Terminal
 - $ssh root@ip-adresse
-- $pihole -a -p
+- $pihole -a -p # anschließend das neue Passwort eingeben
 
 - Aufruf der Pihole Seite
   - https://ip-adresse/admin
