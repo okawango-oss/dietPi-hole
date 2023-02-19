@@ -8,7 +8,7 @@ Hardwarevoraussetzungen:
   - SD-Karte mit mehr als 8 GB Speicherplatz
 
 Download des Images dietPi-hole.img per Browser
-  - Link einfügen https://github.com/okawango-oss/dietPi-hole/commit/4da934a0f80717f73496a8af89ceff9612c649e1
+  - Link gibt es bei mir temporär only by invitation.
 
 Empfehlung:
   - SD-Karte vorher prüfen. https://www.maketecheasier.com/check-sd-card-speed-capacity/#fake-flash-test
