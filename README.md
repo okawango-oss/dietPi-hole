@@ -2,7 +2,7 @@
 
 Das Image dietPi-hole.img basiert auf dem Betriebssystem dietpi v8.14. Mittels dietpi-launcher wurde Pihole aus dem selben repository installiert. Die Netzwerkkonfiguration wurde auf DHCP voreingestellt. Dazu wurden 75 Blocklisten eingepflegt und die Option DNSSEC für die vier upstream DNS Server aktiviert: 2x Cloudflare und 2x Quad9.Benefits des Pihole sind signifikante Performance Verbesserungen von ca. 800 ms auf nur noch 50-70 ms für die IP-Addressen Auflösung. Die Sicherheit wird verbessert, da sogenanntes "DNS CNAME cloaking" deutlich reduziert wird.
 
-FIREWALL + BENUTZER?!root +
+FIREWALL?
 
 Hardwarevoraussetzungen: 
 - Raspberrypi Versionen 2/3/4
@@ -56,3 +56,9 @@ Funktionstest Blocklisten und normales browsen
 Terminal:
   - $dig @localhost doubleclick.net #darf keine ip-adress anzeigen, stattdessen 0.0.0.0
   - $dig @localhost ard.de #sollte die ip-adress der ARD anzeigen
+
+Updates:
+- Es weird automatisch auf updates geprüft, aber nicht automatisch das update eingespielt (Empfehlung der Pihole Entwickler). Man erkennt ein verfügbares update an dem blickenden Pihole Logo auf der admin Seite, ganz unten bei der Versionsangabe. http://ip-adress/admin
+Im Terminal:
+- $pihole -up #eingeben, dann wird Pihole entsprechend aktualisiert
+- Die Blocklisten werden täglich und automatisch aktualisiert
