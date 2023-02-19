@@ -78,3 +78,5 @@ We will use these numbers in the rest of the example. The block-size (512) is of
 Next we shrink the image-file to a size that can just contain the partition. For this we will use the truncate command (thanks uggla!). With the truncate command need to supply the size of the file in bytes. The last block was 9181183 and block-numbers start at 0. That means we need (9181183+1)*512 bytes. This is important, else the partition will not fit the image. So now we use truncate with the calculations:
 
 $truncate --size=$[(15625000+1)*512] dietPi-hole.img
+
+##end
