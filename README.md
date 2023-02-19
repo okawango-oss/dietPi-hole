@@ -18,7 +18,8 @@ Zum Beispiel mit Balena Etcher:
 Remote Zugang per ssh für macOS oder Linux. 
 Hinweis: Das Dollar Zeichen ($) bedeutet: als root den Befehl eingeben und mit Return abschließen, das
          Doppelkreuze (#) markiert Kommentare 
-  Terminal:
+
+Terminal:
 - $wget https://... #Download des Images, falls noch nicht geschehen, ansonsten überspringen
 - $ssh root@ipadresse #ip-adresse siehe Fritzbox
 - dietpi #das initiale Passwort
