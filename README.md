@@ -58,7 +58,7 @@ Terminal:
   - $dig @localhost ard.de #sollte die ip-adress der ARD anzeigen
 
 Updates:
-- Es weird automatisch auf updates geprüft, aber nicht automatisch das update eingespielt (Empfehlung der Pihole Entwickler). Man erkennt ein verfügbares update an dem blickenden Pihole Logo auf der admin Seite, ganz unten bei der Versionsangabe. http://ip-adress/admin
+- Es weird automatisch auf updates geprüft, aber nicht automatisch das update eingespielt (Empfehlung der Pihole Entwickler). Man erkennt ein verfügbares update an der blickenden Versionsangabe auf der admin Seite, ganz unten. http://ip-adress/admin
 Im Terminal:
 - $pihole -up #eingeben, dann wird Pihole entsprechend aktualisiert
 - Die Blocklisten werden täglich und automatisch aktualisiert
