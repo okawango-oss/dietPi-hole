@@ -24,7 +24,7 @@ Remote Zugang per ssh für macOS oder Linux, nachdem der Raspi das erste mal hoc
 Hinweis: Das Dollar Zeichen ($) bedeutet: als root den Befehl eingeben und mit Return abschließen, das
          Doppelkreuz (#) markiert Kommentare 
 
-  Terminal:
+  Terminal/Putty:
   - $wget https://... #Download des Images, falls noch nicht geschehen, ansonsten überspringen
   - $ssh root@ip-adress #ip-adress siehe Fritzbox
   - dietpi #das initiale Passwort
@@ -39,7 +39,7 @@ Fritz.box
 
 Pihole web login Passwort ändern
 
-  Terminal:
+  Terminal/Putty:
   - $ssh root@ip-adress
   - $pihole -a -p # anschließend das neue Passwort eingeben
 
@@ -53,13 +53,13 @@ Funktionstest DNSSEC
 
 Funktionstest Blocklisten und normales surfen
 
-   Terminal:
+   Terminal/Putty:
   - $dig @localhost doubleclick.net #darf keine ip-adress anzeigen, stattdessen 0.0.0.0
   - $dig @localhost ard.de #sollte die ip-adress der ARD anzeigen
 
 Updates:
   - Es wird automatisch auf updates geprüft, aber nicht automatisch das update eingespielt (Empfehlung der Pihole Entwickler). Man erkennt ein verfügbares update an der blinkenden Versionsangabe auf der admin Seite, ganz unten. http://ip-adress/admin 
 
-  Terminal:
+  Terminal/Putty:
   - $pihole -up #eingeben, dann wird Pihole entsprechend aktualisiert
   - Die Blocklisten werden täglich und automatisch aktualisiert
